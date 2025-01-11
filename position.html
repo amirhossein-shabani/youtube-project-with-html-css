@@ -32,7 +32,7 @@
       right: 0;
       height: 50px;
       align-content: center ; 
-
+      z-index: 100;
       ">
       <p style="display: flex;  justify-content: center; font-size: 20px; position: relative; bottom: 8px;">header</p>
       </div>
@@ -54,6 +54,33 @@
       <P class="sidbar">sidebar 2</P>
       <P class="sidbar">sidebar 3</P>
       <P class="sidbar">sidebar 4</P>
+      
+      <div style="
+      position: absolute;
+      background-color: white;
+      color: red;
+      top:5px;
+      right:5px ;
+      /* z-index : 2 ; */
+      border-radius: 10px;
+      width: 20px;
+      height: 20px;
+      ">
+      <span style="font-size: 18px; padding-left: 3px; padding-top: .6px; font-weight: bold; font-family: Arial ;">X</span>
+      
+      </div>
+      
+      </div>
+
+      <div style="
+      position: absolute;
+      background-color: red;
+      color: white;
+      top: 15px;
+      right:10px ;
+      /* z-index : 2 ; */
+      ">
+        absolute
       </div>
 
 
@@ -69,8 +96,19 @@
       background-color: lightpink;
       height: 200px;
       width: 200px;
+      position: relative;
       ">
       div 2
+      <div style="
+      position: absolute;
+      background-color: red;
+      color: white;
+      top: 0px;
+      right: 0px ;
+      /* z-index : 2 ; */
+      ">
+        absolute
+      </div>
     </div>
 
   </body>
